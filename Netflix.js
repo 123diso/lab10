@@ -60,9 +60,9 @@ peliculas.forEach(pelicula => {
     r = t.insertRow(1); 
     c = r.insertCell(0);
     for (let index = 0; index < pelicula.ranking; index++) {
-        var inputRadio = document.createElement('input');
+        let inputRadio = document.createElement('input');
         inputRadio.type = "radio"
-        var labelStar = document.createElement('label');
+        let labelStar = document.createElement('label');
         labelStar.innerHTML = '<i class="fa-solid fa-star"></i>';
         c.appendChild(inputRadio);
         c.appendChild(labelStar);
@@ -87,9 +87,9 @@ peliculas.forEach(pelicula => {
     r = t.insertRow(1); 
     c = r.insertCell(0);
     for (let index = 0; index < pelicula.ranking; index++) {
-        var inputRadio = document.createElement('input');
+        let inputRadio = document.createElement('input');
         inputRadio.type = "radio"
-        var labelStar = document.createElement('label');
+        let labelStar = document.createElement('label');
         labelStar.innerHTML = '<i class="fa-solid fa-star"></i>';
         c.appendChild(inputRadio);
         c.appendChild(labelStar);
