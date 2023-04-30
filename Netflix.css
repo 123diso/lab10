@@ -1,0 +1,206 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(49, 49, 49);
+
+}
+
+.carrusel {
+    display: flex;
+}
+.contenedor{
+display: flex;
+    /* background-image: url(https://www.themoviedb.org/t/p/original/3aXJrJV80gL7UAs9Eky69seJow1.jpg); */
+    min-height: 90vh;  
+    flex-direction: column;
+    background-position: center center;
+    background-size: cover;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+.contenedor img{
+    max-height: 50%;
+    min-width: 50%;
+}
+
+nav{
+    margin: 9vh 0 0 7vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.219);
+    padding: 10px;
+    border-radius: 1.5em;
+    
+    
+    
+}
+.titulo_principal{
+    position: absolute;
+    bottom: 0;
+
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    margin: 0 1.5vw;
+
+}
+.user{
+
+    margin-left: 55vw;
+
+}
+nav span{
+    margin-top: 0.5vh;
+}
+
+
+.contenedor div p{
+margin: 0px 50vw 0 8vw;
+font-size: 1.2em;
+}
+.contenedor div h3{
+    margin: 0 50vw 2vh 8vw;
+font-size: 3em;
+}
+.contenedor div h3 span{
+    font-size: 0.5em;
+}
+
+
+.button{
+    margin: 0 0 20vh 8vw;
+font-size: 2em;
+
+}
+
+.edad{
+    font-size: 0.5em;
+}
+
+
+.button button{
+background: rgba(0, 0, 1, 0.467);
+border-width: 0;
+border-radius: 0.31em;
+color: white;
+cursor: pointer;
+padding: 0.93em 1.87em;
+transition: 0.6s;
+}
+button:hover {
+    border-width: 0.1em;
+    border-color: white;
+
+}
+.pp{
+    margin: 0 30vw 0 0 ;
+}
+
+.mas-18 {
+position: relative;
+left: -43px;
+top: -40px;
+text-decoration: none;
+color: white;
+
+}
+
+.contenedor_carrusel{
+  
+    width: 98%;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    
+}
+.contenedor_carrusel::-webkit-scrollbar{
+    height: 2vh;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.291);
+    
+ 
+
+}
+
+.contenedor_carrusel img {
+    height: 40vh;
+    flex-wrap: nowrap;
+    margin: 0 0.8vw;
+    border-radius: 1.5em;
+    
+   
+}
+
+.contenedor_2{
+    color: white;
+}
+
+input{
+    display: none;
+}
+
+
+
+.rating{
+    color: white;
+    
+
+}
+
+
+
+
+
+
+
+
+
+.contenedor_carrusel_2{
+  
+    width: 98%;
+    margin-left : 2vw;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-bottom: 10vh;
+    
+
+}
+
+.contenedor_carrusel_2 img {
+    height: 40vh;
+    flex-wrap: nowrap;
+    margin: 0 0.8vw;
+    border-radius: 1.5em;
+   
+}
+.contenedor_carrusel_2::-webkit-scrollbar{
+    height: 2vh;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.291);
+ 
+
+}
+
+section h3{
+    color: white;
+    margin: 7vh 0 3vh 3vw;
+}
+
+
+
+
+
+
+
+
